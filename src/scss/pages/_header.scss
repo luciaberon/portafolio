@@ -1,0 +1,114 @@
+.header {
+    @include section(rgba(0, 0, 255, 0.116));
+}
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+.text-rose {
+    color:gray;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 40px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+        color: white;
+    }
+}
+
+.underscore {
+    animation: underscoreAnimation 1s infinite;
+}
+
+@keyframes underscoreAnimation  {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.introduction {
+    left: 10%;
+    top: 32%;
+    position: absolute;
+}
+
+.text-introduction {
+    color: rgba(41, 44, 192, 0.705);
+    font-family: 'Roboto Mono', sans-serif;
+    letter-spacing: 2px;
+    font-size: 80px;
+    margin-bottom: 25px;
+}
+
+.greater-than-symbol {
+    margin-right: 30px;
+}
+
+.intro {
+    color: rgb(53, 52, 52);
+    font-family: 'Roboto Mono', sans-serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-align: left;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 85px;
+    height: 175px;
+}
+
+.social-icons-group {
+    display: flex;
+    justify-content: space-between;
+    width: 82%;
+}
+
+
+
+
+@media (max-width:768px) {
+    .text-introduction {
+        font-size: 50px;
+    }
+    div.info-section {
+        margin-left: 0;
+    }
+}
+
+@media (max-width:425px) {
+    .text-introduction {
+        font-size: 38px;
+    }
+}
+
+@media (max-width:375px) {
+    .text-introduction {
+        font-size: 30px;
+    }
+    div.intro {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:320px) {
+    .text-introduction {
+        font-size: 28px;
+    }
+    div.btn-push.purple {
+        font-size: 20px;
+    }
+}
+

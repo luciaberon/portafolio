@@ -1,0 +1,19 @@
+@mixin section($bg-color, $height:100vh) {
+    height: $height;
+    background-color: $bg-color;
+}
+
+@mixin titleSection($fontSize,$lineWidth) {
+    padding-top: 30px;
+    margin-bottom: 20px;
+    font-family: 'secondary',sans-serif;
+    font-size: $fontSize;
+    &:after {
+        content: '';
+        display: block;
+        width: $lineWidth;
+        margin: 20px auto;
+        height: 10px;
+        background-color: rgb(87, 28, 226);
+    }
+}  

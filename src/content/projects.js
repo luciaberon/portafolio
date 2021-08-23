@@ -12,7 +12,7 @@ export const projects = [
         'Portafolio personal.',
       languages: ['html','css','javascript','react','bootstrap','sass'],
       link:"https://github.com/mindlessChair/portfolio",
-      img:'src/content/portfolio.png',
+      img:'https://drive.google.com/file/d/1pDyK-D3QCKkoO1h9oLhxLtdh1zEQJ4LW/view?usp=sharing',
     },
     {
       name: 'Administrador de publicaciones',

@@ -12,7 +12,7 @@ export const projects = [
         'Portafolio personal.',
       languages: ['html','css','javascript','react','bootstrap','sass'],
       link:"https://github.com/mindlessChair/portfolio",
-      img:'https://drive.google.com/file/d/1pDyK-D3QCKkoO1h9oLhxLtdh1zEQJ4LW/view?usp=sharing',
+      img:'https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
     },
     {
       name: 'Administrador de publicaciones',
@@ -20,7 +20,7 @@ export const projects = [
         'Página de administración de publicaciones CRUD, que permite crear, editar, eliminar y leer publicaciones.',
       languages: ['html','css','react','bootstrap'],
       link:"https://github.com/mindlessChair/administrador-de-publicaciones",
-      img:'https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+      img:'https://images.pexels.com/photos/1089440/pexels-photo-1089440.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
     },
     {
       name: 'API de tiempo y clima',
@@ -35,7 +35,7 @@ export const projects = [
         'Proyecto dado por The Odin Project. Consiste en una biblioteca personal en la que pueden agregarse, quitarse y modicarse libros que fueron leídos por el usuario. Los libros se guardan por medio de cookies.',
       languages: ['html','css','javascript'],
       link:"https://github.com/mindlessChair/Library",
-      img:'https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+      img:'https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
     },
     {
       name: 'Cliente de tiempo y clima',

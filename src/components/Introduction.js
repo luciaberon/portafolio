@@ -1,9 +1,13 @@
 import React from 'react'
+import { contactInfo } from '../content/contactInfo';
 import { Typewriter } from 'react-simple-typewriter'
 import { SocialIcon } from 'react-social-icons';
 
 
 export default function Introduction() {
+
+    const { name, jobPosition, resume, linkedin, email, github } = contactInfo
+
     return (
         <div className="d-flex flex-column align-items-start introduction">
             <span className="text-introduction">
@@ -11,7 +15,7 @@ export default function Introduction() {
                 &gt;
                 </span>
                 <Typewriter
-                    words={['Lucía Berón']}
+                    words={[name]}
                     typeSpeed={100}
                     loop={1}
                     delaySpeed={1500}
@@ -20,19 +24,19 @@ export default function Introduction() {
             </span>
             <div className="info-section">
                 <div className="intro">
-                    Desarrolladora Front End
+                    {jobPosition}
                 </div>
 
                 <div className="btn-push purple">
-                    <a target="_blank" href="https://drive.google.com/file/d/1VZtx0aNcq59jNxuUSnwqY19w6xt2-Mu0/view?usp=sharing">
+                    <a target="_blank" href={resume}>
                     DESCARGAR CV
                     </a>
                 </div>
 
                 <div className="social-icons-group">
-                    <SocialIcon target="_blank" url="https://linkedin.com/in/lucia-beron" />
-                    <SocialIcon target="_blank" url="mailto:luciaberonwaingart@hotmail.com" network="email"/>
-                    <SocialIcon target="_blank" url="https://github.com/mindlessChair/"/>
+                    <SocialIcon target="_blank" url={linkedin} />
+                    <SocialIcon target="_blank" url={email} network="email"/>
+                    <SocialIcon target="_blank" url={github}/>
                 </div>
             </div>
             

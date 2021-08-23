@@ -1,6 +1,5 @@
 import React from 'react'
 import Skills from './Skills'
-import Heading from 'react-bootstrap'
 
 export default function About() {
     return (

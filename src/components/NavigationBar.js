@@ -9,7 +9,7 @@ export default function NavigationBar() {
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
                 <Nav.Link href="#about">Sobre mí</Nav.Link>
-                <Nav.Link href="#portfolio">Proyectos</Nav.Link>
+                <Nav.Link href="#proyectos">Proyectos</Nav.Link>
             </Nav>
             </Navbar.Collapse>
         </Container>

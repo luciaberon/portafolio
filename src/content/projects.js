@@ -20,7 +20,7 @@ export const projects = [
         'Página de administración de publicaciones CRUD, que permite crear, editar, eliminar y leer publicaciones.',
       languages: ['html','css','react','bootstrap'],
       link:"https://github.com/mindlessChair/administrador-de-publicaciones",
-      img:'https://lensdump.com/i/ZUr0D1.png',
+      img:'https://i1.lensdump.com/i/ZUr0D1.png',
     },
     {
       name: 'API de tiempo y clima',

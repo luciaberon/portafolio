@@ -27,11 +27,11 @@ export default function Introduction() {
                     {jobPosition}
                 </div>
 
-                <div className="btn-push purple">
-                    <a target="_blank" href={resume}>
-                    DESCARGAR CV
-                    </a>
+                <a target="_blank" href={resume}>
+                <div className="btn-push purple">                
+                    DESCARGAR CV                 
                 </div>
+                </a>
 
                 <div className="social-icons-group">
                     <SocialIcon target="_blank" url={linkedin} />
